@@ -48,7 +48,7 @@ if month == "October" and day == 31:
     print("You were born on Halloween!") 
 elif month == todaymonth and day == todaydate:
     print("Happy birthday!") 
-elif month == "December" or "January" or "February" and year=<1990
+elif month == "December" or "January" or "February":
     print (ye)
 else:
     print("ok")
