@@ -54,7 +54,7 @@ elif month == "March" or "April" or "May":
     print("You are a spring baby")
 elif month == "June" or "July" or "August":
     print("You are a summer baby") 
-elif month == "September" or "October" or "November" 
+elif month == "September" or "October" or "November":
     print("You are a fall baby") 
 else:
     print("ok")
