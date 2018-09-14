@@ -40,7 +40,7 @@ mounth = month_name[todaymonth]
 
 name = input("Hello, what is your name? ")
 month = input("Hi " + name + ", what was the name of the month you were born in?")
-y = input("And what yoear were your born in, " + name + "? ")
+y = input("And what year were your born in, " + name + "? ")
 d = input("And the day? ")
 day = int(d) 
 year = int(y)
@@ -97,8 +97,9 @@ elif month == "March" or month == "April" or month == "May" and year < 1980:
 elif month == "June" or month == "July" or month == "August" and year < 1980:
     print("You are a summer baby of the stone age.") 
     
-elif month == "September" or month == "October" or month == "November" and year < 1980:
+elif month == "September" or month == "October" or month == "November" and year == 1965:
     print("You are a fall baby of the stone age.") 
+
 else:
     print("ok")
 
