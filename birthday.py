@@ -49,7 +49,13 @@ if month == "October" and day == 31:
 elif month == todaymonth and day == todaydate:
     print("Happy birthday!") 
 elif month == "December" or "January" or "February":
-    print (ye)
+    print ("You are a winter baby")
+elif month == "March" or "April" or "May": 
+    print("You are a spring baby")
+elif month == "June" or "July" or "August":
+    print("You are a summer baby") 
+elif month == "September" or "October" or "November" 
+    print("You are a fall baby") 
 else:
     print("ok")
 
