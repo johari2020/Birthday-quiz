@@ -63,12 +63,13 @@ elif month == "September" or month == "October" or month == "November" :
 
 if year >= 1990 and year <= 1999:
     b = str("of the nineties.")
+    print(name + ", " + str(a)+str(b)) 
 elif year >= 1980 and year <= 1989:
     b= str("of the eighties.")
+    print(name + ", " + str(a)+str(b)) 
 elif year >= 2000: 
     b = str(" of the two thousands." )
-    
+    print(name + ", " + str(a)+str(b)) 
 elif year < 1980: 
     b = str("of the stone age.")
- 
-print(name + ", " + str(a)+str(b)) 
+    print(name + ", " + str(a)+str(b)) 
