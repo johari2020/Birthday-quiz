@@ -41,7 +41,7 @@ mounth = month_name[todaymonth]
 
 name = input("Hello, what is your name? ")
 month = input("Hi " + name + ", what was the name of the month you were born in?")
-y = input("And what year were your born in, " + name + "? ")
+y = input("And what year were you born in, " + name + "? ")
 d = input("And the day? ")
 day = int(d) 
 year = int(y)
