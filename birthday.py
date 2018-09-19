@@ -45,31 +45,64 @@ d = input("And the day? ")
 day = int(d) 
 year = int(y)
 a=""
+
 if month == "October" and day == 31:
     print("You were born on Halloween!")
 elif month == mounth and day == todaydate:
     print("Happy Birthday!") 
 elif month == "December" or month == "January" or month == "February":
-    a = str("you are a winter baby ")
-    
+    a = str("You are a winter baby ")
+    if year >= 1990 and year <= 1999:
+        b = str("of the nineties.")
+        print(str(a)+str(b))
+    elif year >= 1980 and year <= 1989:
+        b= str("of the eighties.")
+        print(str(a)+str(b))
+    elif year >= 2000: 
+         b = str("of the two thousands." )
+         print(str(a)+str(b))
+    else: 
+        b = str("of the stone age.")
+        print(str(a)+str(b)) 
 elif month == "March" or month == "April" or month == "May": 
-    a = str("you are a spring baby ")
-    
+    a = str("You are a spring baby ")
+    if year >= 1990 and year <= 1999:
+        b = str("of the nineties.")
+        print(str(a)+str(b))
+    elif year >= 1980 and year <= 1989:
+        b= str("of the eighties.")
+        print(str(a)+str(b))
+    elif year >= 2000: 
+         b = str("of the two thousands." )
+         print(str(a)+str(b))
+    else: 
+        b = str("of the stone age.")
+        print(str(a)+str(b)) 
 elif month == "June" or month == "July" or month == "August" :
-    a = str("you are a summer baby ") 
-    
+    a = str("You are a summer baby ") 
+    if year >= 1990 and year <= 1999:
+        b = str("of the nineties.")
+        print(str(a)+str(b))
+    elif year >= 1980 and year <= 1989:
+        b= str("of the eighties.")
+        print(str(a)+str(b))
+    elif year >= 2000: 
+         b = str("of the two thousands." )
+         print(str(a)+str(b))
+    else: 
+        b = str("of the stone age.")
+        print(str(a)+str(b)) 
 elif month == "September" or month == "October" or month == "November" :
-    a = str("you are a fall baby ") 
-
-if year >= 1990 and year <= 1999:
-    b = str("of the nineties.")
-    print(name + ", " + str(a)+str(b)) 
-elif year >= 1980 and year <= 1989:
-    b= str("of the eighties.")
-    print(name + ", " + str(a)+str(b)) 
-elif year >= 2000: 
-    b = str(" of the two thousands." )
-    print(name + ", " + str(a)+str(b)) 
-elif year < 1980: 
-    b = str("of the stone age.")
-    print(name + ", " + str(a)+str(b)) 
+    a = str("You are a fall baby ") 
+    if year >= 1990 and year <= 1999:
+        b = str("of the nineties.")
+        print(str(a)+str(b))
+    elif year >= 1980 and year <= 1989:
+        b= str("of the eighties.")
+        print(str(a)+str(b))
+    elif year >= 2000: 
+         b = str("of the two thousands." )
+         print(str(a)+str(b))
+    else: 
+        b = str("of the stone age.")
+        print(str(a)+str(b)) 
