@@ -93,7 +93,7 @@ elif month == "June" or month == "July" or month == "August" :
         b = str("of the stone age.")
         print(name + ", " + str(a)+str(b))
 elif month == "September" or month == "October" or month == "November" :
-    a = str("You are a fall baby ") 
+    a = str("you are a fall baby ") 
     if year >= 1990 and year <= 1999:
         b = str("of the nineties.")
         print(name + ", " + str(a)+str(b)) 
