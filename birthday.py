@@ -49,7 +49,7 @@ a=""
 if month == "October" and day == 31:
     print("You were born on Halloween!")
 elif month == mounth and day == todaydate:
-    print("Happy Birthday!") 
+    print("Happy birthday!") 
 elif month == "December" or month == "January" or month == "February":
     a = str("you are a winter baby ")
     if year >= 1990 and year <= 1999:
